@@ -99,14 +99,14 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-ZP-IGH" userLabel="Horizontal Line">
-                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-ZP-IGH" userLabel="Horizontal Line">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="tvP-Sk-idH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m3b-JG-zhe" userLabel="Horizontal Line">
-                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="k5D-2M-QYf"/>
                                 </constraints>
@@ -114,16 +114,21 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akp-RG-jDQ" userLabel="Input Message View">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQT-Gd-Xqx">
+                                        <color key="backgroundColor" red="0.16470588235294117" green="0.7803921568627451" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="55" id="OSH-xb-Bna"/>
                                         </constraints>
-                                        <state key="normal" title="Send"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
                                             <action selector="sendButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q9J-sa-cMs"/>
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="if2-m0-Atu">
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -134,7 +139,7 @@
                                     <constraint firstItem="TQT-Gd-Xqx" firstAttribute="leading" secondItem="if2-m0-Atu" secondAttribute="trailing" constant="8" symbolic="YES" id="1pB-zj-mjf"/>
                                     <constraint firstAttribute="bottom" secondItem="if2-m0-Atu" secondAttribute="bottom" constant="5" id="H5K-SI-NT2"/>
                                     <constraint firstAttribute="trailing" secondItem="TQT-Gd-Xqx" secondAttribute="trailing" constant="3" id="dog-WN-6rA"/>
-                                    <constraint firstItem="if2-m0-Atu" firstAttribute="leading" secondItem="akp-RG-jDQ" secondAttribute="leading" constant="16" id="ouC-EX-0Hi"/>
+                                    <constraint firstItem="if2-m0-Atu" firstAttribute="leading" secondItem="akp-RG-jDQ" secondAttribute="leading" constant="8" id="ouC-EX-0Hi"/>
                                     <constraint firstItem="TQT-Gd-Xqx" firstAttribute="bottom" secondItem="if2-m0-Atu" secondAttribute="bottom" id="sR3-ht-YlS"/>
                                     <constraint firstItem="TQT-Gd-Xqx" firstAttribute="top" secondItem="if2-m0-Atu" secondAttribute="top" id="u9A-x1-mIa"/>
                                     <constraint firstItem="if2-m0-Atu" firstAttribute="top" secondItem="akp-RG-jDQ" secondAttribute="top" constant="5" id="y2y-9p-P9I"/>
@@ -155,7 +160,7 @@
                             <constraint firstItem="f3x-TK-V4h" firstAttribute="top" secondItem="g6f-ZP-IGH" secondAttribute="bottom" constant="-1" id="eJc-HT-x1N"/>
                             <constraint firstAttribute="trailing" secondItem="FW0-rY-tm3" secondAttribute="trailing" id="f6D-Zt-fna"/>
                             <constraint firstItem="m3b-JG-zhe" firstAttribute="bottom" secondItem="akp-RG-jDQ" secondAttribute="top" id="gAt-2I-VWJ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FW0-rY-tm3" secondAttribute="bottom" constant="47" id="hOO-hc-CJu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FW0-rY-tm3" secondAttribute="bottom" constant="1" id="hOO-hc-CJu"/>
                             <constraint firstAttribute="trailing" secondItem="akp-RG-jDQ" secondAttribute="trailing" id="khJ-Km-1IV"/>
                             <constraint firstItem="FW0-rY-tm3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kme-7x-efo"/>
                             <constraint firstAttribute="trailing" secondItem="m3b-JG-zhe" secondAttribute="trailing" id="ssB-hN-PAZ"/>

@@ -40,6 +40,11 @@ static NSString* outgoingCellIdentifier = @"outgoingCell";
     self.textViewInputMessage.layer.borderWidth = 1;
     self.textViewInputMessage.layer.cornerRadius = 5;
     
+    self.buttonSend.layer.borderWidth = 1;
+    self.buttonSend.layer.cornerRadius = 5;
+    self.buttonSend.layer.borderColor = self.buttonSend.backgroundColor.CGColor;
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
