@@ -13,8 +13,7 @@
     self.labelMessage.numberOfLines = 0;
     self.labelMessage.lineBreakMode = NSLineBreakByWordWrapping;
     
-    
-    self.viewMessage.layer.cornerRadius = 5;
+    self.viewMessage.layer.cornerRadius = 10;
     self.viewMessage.clipsToBounds = YES;
     self.viewMessage.layer.masksToBounds = YES;
     
