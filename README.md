@@ -35,3 +35,5 @@ Chat Message : using Objective C sample application using tableview controller w
 
 ![chat-preview](https://user-images.githubusercontent.com/5592080/46251010-0a640900-c461-11e8-930a-103d80cb8bae.png)
 
+![chat-preview-2](https://user-images.githubusercontent.com/5592080/46256683-6d888680-c4c7-11e8-90d4-7d06f50c5c59.png)
+
