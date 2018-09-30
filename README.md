@@ -53,7 +53,9 @@ Chat Message : using Objective C sample application using tableview controller w
 
 # Screen Shots
 
-![chat-preview](https://user-images.githubusercontent.com/5592080/46251010-0a640900-c461-11e8-930a-103d80cb8bae.png)
-
-![chat-preview-2](https://user-images.githubusercontent.com/5592080/46256683-6d888680-c4c7-11e8-90d4-7d06f50c5c59.png)
+![3](https://user-images.githubusercontent.com/5592080/46257367-be04e180-c4d1-11e8-9bcc-9179a94071a5.png)
+![ipad-landscape](https://user-images.githubusercontent.com/5592080/46257368-be04e180-c4d1-11e8-8540-b84dbe995cb3.png)
+![1](https://user-images.githubusercontent.com/5592080/46257369-be9d7800-c4d1-11e8-8199-89d8eb1466e0.png)
+![ipad-portrait](https://user-images.githubusercontent.com/5592080/46257370-be9d7800-c4d1-11e8-8677-2f0c6107b766.png)
+![2](https://user-images.githubusercontent.com/5592080/46257371-bf360e80-c4d1-11e8-84f7-12f2c7b1cbc9.png)
 
