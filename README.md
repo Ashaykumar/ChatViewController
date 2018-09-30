@@ -1,6 +1,5 @@
 # ChatViewController
 Chat Message : using Objective C sample application using tableview controller with keyboard handle. 
-![chat-preview](https://user-images.githubusercontent.com/5592080/46251010-0a640900-c461-11e8-930a-103d80cb8bae.png)
 
 # Change Background Color and Border Corner in TableViewCell as (ChatroomTableViewCell)
    self.viewMessage.layer.cornerRadius = 5; // you can change it as per your requirement.
@@ -33,4 +32,6 @@ Chat Message : using Objective C sample application using tableview controller w
         [self.tableViewMessageList scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:(self.messageList.count-1) inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
     }
 }
+
+![chat-preview](https://user-images.githubusercontent.com/5592080/46251010-0a640900-c461-11e8-930a-103d80cb8bae.png)
 
